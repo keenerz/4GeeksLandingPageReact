@@ -13,13 +13,19 @@ const Home = () => {
 			<Navbar />
 			<div className="container">
 				<Jumbotron />
-				<div className="d-flex">
+				<div className="d-lg-flex">
 					<CardStart />
 					<Cards />
 					<Cards />
 					<CardEnd />
 				</div>
 			</div>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
 			<Footer />
 		</div>
 	);
