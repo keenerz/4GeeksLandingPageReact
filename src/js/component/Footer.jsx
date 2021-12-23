@@ -3,11 +3,9 @@ import React from "react";
 //create your first component
 const Footer = () => {
 	return (
-		<footer class="footer mt-auto py-3 bg-light">
-			<div class="container">
-				<span class="text-muted">
-					Place sticky footer content here.
-				</span>
+		<footer class="footer mt-auto py-5 bg-dark text-white fixed-bottom">
+			<div class="container text-center">
+				<p>Copyright © Your Website 2021</p>
 			</div>
 		</footer>
 	);

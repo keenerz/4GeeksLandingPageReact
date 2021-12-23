@@ -3,9 +3,9 @@ import React from "react";
 import rigoImage from "../../img/500x325.png";
 
 //create your first component
-const Cards = () => {
+const CardEnd = () => {
 	return (
-		<div className="card mt-4 ms-2 me-2 mb-4">
+		<div className="card mt-4 ms-2 mb-4">
 			<img src={rigoImage} className="card-img-top" alt="..."></img>
 			<div className="card-body">
 				<h5 className="card-title text-center">Card title</h5>
@@ -26,4 +26,4 @@ const Cards = () => {
 	);
 };
 
-export default Cards;
+export default CardEnd;
